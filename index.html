@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <title>AbdulAziz Shahrour</title>
+</head>
+
+<body>
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+            <a href="#">Portfolio</a>
+        </div>
+        <div class="nav">
+            <button class="nav-button" onclick="openNav()">
+
+                <i class="fa fa-bars i-size i-color1"></i>
+            </button>
+            <img src="images/photo.jpg" class="avatar" alt="Avatar">
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
+    </header>
+    <main>
+        <div class="parent">
+            <img src="images/photo.jpg" class="big-avatar" alt="Avatar">
+            <div class="child1">
+                <img src="images/photo.jpg" class="small-avatar" alt="Avatar">
+                <h5 class="child1-h5">Rounded corners!</h5>
+                <i class="fa fa-mobile  child-i-size i-color1"></i>
+            </div>
+
+            <div class="child2">
+                <img src="images/photo.jpg" class="small-avatar" alt="Avatar">
+                <h5 class="child2-h5">Rounded corners!</h5>
+                <i class="fa fa-mobile  child-i-size i-color1"></i>
+            </div>
+        </div>
+        <h3>I'm Professional</h3>
+        <h1>Frontend Developer</h1>
+        <div class="hireme-container">
+            <button class="button ">Hire me</button>
+            <button class="button button-blue"><i class="fa fa-play"></i></button>
+        </div>
+        <section class="services">
+            <h1>Provide You Best Service</h1>
+            <p>I always follow proffesional workflow and provide you best service with reseable cost </p>
+            <div class="service">
+                <i class="fa fa-mobile  i-size i-color1"></i>
+                <h3 class="">title</h3>
+                <h4 class="">I always follow proffesional workflow and provide you best service with reseable cost</h4>
+                <hr class="solid">
+            </div>
+            <div class="service">
+                <i class="fa fa-paint-brush  i-size i-color2"></i>
+                <h3 class="">title</h3>
+                <h4 class="">I always follow proffesional workflow and provide you best service with reseable cost</h4>
+                <hr class="solid">
+            </div>
+            <div class="service">
+                <i class="fa fa-comments  i-size i-color3"></i>
+                <h3 class="">title</h3>
+                <h4 class="">I always follow proffesional workflow and provide you best service with reseable cost</h4>
+                <hr class="solid">
+            </div>
+            <div class="service">
+                <i class="fa fa-mobile  i-size i-color4"></i>
+                <h3 class="">title</h3>
+                <h4 class="">I always follow proffesional workflow and provide you best service with reseable cost</h4>
+                <hr class="solid">
+            </div>
+            <div class="service">
+                <i class="fa fa-paint-brush  i-size i-color5"></i>
+                <h3 class="">title</h3>
+                <h4 class="">I always follow proffesional workflow and provide you best service with reseable cost</h4>
+                <hr class="solid">
+            </div>
+            <div class="service">
+                <i class="fa fa-comments  i-size i-color6"></i>
+                <h3 class="">title</h3>
+                <h4 class="">I always follow proffesional workflow and provide you best service with reseable cost</h4>
+                <hr class="solid">
+            </div>
+            <button class="button button-blue ">View All</button>
+
+        </section>
+        <section class="my-skills">
+            <h1>My Skills</h1>
+            <div class="skill">
+                <i class="fa fa-check i-color1"></i>
+                <h4>Photoshop</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width:25%">25%</div>
+                </div>
+                <h4>50%</h4>
+            </div>
+            <div class="skill">
+                <i class="fa fa-check i-color1"></i>
+                <h4>Photoshop</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width:25%">25%</div>
+                </div>
+                <h4>50%</h4>
+            </div>
+            <div class="skill">
+                <i class="fa fa-check i-color1"></i>
+                <h4>Photoshop</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width:25%">25%</div>
+                </div>
+                <h4>50%</h4>
+            </div>
+            <div class="skill">
+                <i class="fa fa-check i-color1"></i>
+                <h4>Photoshop</h4>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width:25%">25%</div>
+                </div>
+                <h4>50%</h4>
+            </div>
+            <h1>About me</h1>
+            <p>I always follow proffesional workflow and provide you best service with reseable cost </p>
+            <button class="button button-blue ">Learn more</button>
+            <h1>We Have A Great Portfoloi To Check</h1>
+            <p>I always follow proffesional workflow and provide you best service with reseable cost </p>
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'All')" id="defaultOpen">All</button>
+                <button class="tablinks" onclick="openCity(event, 'Android App')">Android App</button>
+                <button class="tablinks" onclick="openCity(event, 'Ios App')">Ios App</button>
+                <button class="tablinks" onclick="openCity(event, 'Website')">Website</button>
+                <button class="tablinks" onclick="openCity(event, 'Web App')">Web App</button>
+            </div>
+
+            <div id="All" class="tabcontent">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+
+            </div>
+
+            <div id="Android App" class="tabcontent">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+
+            </div>
+
+            <div id="Ios App" class="tabcontent">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+
+            </div>
+
+            <div id="Website" class="tabcontent">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+
+            </div>
+
+            <div id="Web App" class="tabcontent">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+                <img src="images/Yellow Gradient.png" class="portfolio-pic" alt="gallery pic">
+
+            </div>
+            <button class="button button-blue">See more</i></button>
+
+            <script>
+                function openCity(evt, cityName) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    document.getElementById(cityName).style.display = "block";
+                    evt.currentTarget.className += " active";
+                }
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+            </script>
+        </section>
+        <section class="my-workflow">
+            <h1>My Workflow</h1>
+            <p>I always follow proffesional workflow and provide you best service with reseable cost </p>
+            <div class="workflow-item">
+                <div class="circle circle1-color">
+                    <h5>01</h5>
+                </div>
+                <div>
+                    <h4>title</h4>
+                    <h6>I always follow proffesional workflow</h6>
+                </div>
+            </div>
+            <div class="workflow-item">
+                <div class="circle circle2-color">
+                    <h5>01</h5>
+                </div>
+                <div>
+                    <h4>title</h4>
+                    <h6>I always follow proffesional workflow</h6>
+                </div>
+            </div>
+            <div class="workflow-item">
+                <div class="circle circle3-color">
+                    <h5>01</h5>
+                </div>
+                <div>
+                    <h4>title</h4>
+                    <h6>I always follow proffesional workflow</h6>
+                </div>
+            </div>
+            <div class="workflow-item">
+                <div class="circle circle4-color">
+                    <h5>01</h5>
+                </div>
+                <div>
+                    <h4>title</h4>
+                    <h6>I always follow proffesional workflow</h6>
+                </div>
+            </div>
+            <button class="button button-blue">See all</i></button>
+        </section>
+        <section class="clients-feedback">
+            <h1>See Clients Feedback</h1>
+            <p>I always follow proffesional workflow and provide you best service with reseable cost </p>
+            <div class="carousel">
+                <img src="images/Yellow Gradient.png" alt="Image 1">
+                <img src="images/altumcode.jpg" alt="Image 2">
+                <img src="images/thisisengineering.jpg" alt="Image 3">
+                <!-- Add more images as needed -->
+            </div>
+            <button class="button button-blue">See more</i></button>
+        </section>
+        <section class="my-success">
+            <h1>My success</h1>
+            <p>I always follow proffesional workflow and provide you best service with reseable cost </p>
+            <div class="rounded-rec">
+                <div class="rounded-rec-color1">
+
+                </div>
+            </div>
+            <div class="rounded-rec">
+                <div class="rounded-rec-color2">
+
+                </div>
+            </div>
+            <div class="rounded-rec">
+                <div class="rounded-rec-color3">
+
+                </div>
+            </div>
+            <button class="button button-blue">See more</i></button>
+        </section>
+        <section class="Blog">
+            <h1>Blog & Article</h1>
+            <p>I always follow proffesional workflow and provide you best service with reseable cost </p>
+            <div class="blogs-container">
+                <div class="blog-rect">
+                    <img class="blog-img" src="images/photo.jpg" alt="photo">
+                    <h6>Augustc 12,27</h6>
+                    <h4>I always follow proffesional workflow and provide you best service with reseable cost </h4>
+
+                </div>
+                <div class="blog-rect">
+                    <img class="blog-img" src="images/photo.jpg" alt="photo">
+                    <h6>Augustc 12,27</h6>
+                    <h4>I always follow proffesional workflow and provide you best service with reseable cost </h4>
+
+                </div>
+                <div class="blog-rect">
+                    <img class="blog-img" src="images/photo.jpg" alt="photo">
+                    <h6>Augustc 12,27</h6>
+                    <h4>I always follow proffesional workflow and provide you best service with reseable cost </h4>
+
+                </div>
+            </div>
+
+            <button class="button button-blue">Read more</i></button>
+            <div class="sponsers">
+                <div class="sponser">
+                    <img src="images/altumcode.jpg" alt="sponser">
+                </div>
+                <div class="sponser">
+                    <img src="images/altumcode.jpg" alt="sponser">
+                </div>
+                <div class="sponser">
+                    <img src="images/altumcode.jpg" alt="sponser">
+                </div>
+                <div class="sponser">
+                    <img src="images/altumcode.jpg" alt="sponser">
+                </div>
+                <div class="sponser">
+                    <img src="images/altumcode.jpg" alt="sponser">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <h1>My Workflow</h1>
+        <p>I always follow proffesional workflow and provide you best service with reseable cost </p>
+    </footer>
+
+</body>
+
+</html>
